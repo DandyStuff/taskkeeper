@@ -1,0 +1,226 @@
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 5px;
+}
+
+body {
+	font-family: "Roboto";
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container {
+	position: relative;
+	width: 25%;
+	text-align: center;
+	color: black;
+
+}
+
+form {
+	display: inline-block;
+	width: 50%;
+	border: 3px solid #f1f1f1;
+}
+
+.error-box {
+	background-color: #ff9393;
+	color: #8f0000;
+	padding: 20px;
+	border-radius: 15px;
+}
+.success-box {
+	background-color: #8dff87;
+	color: #034200;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+input[type=email], input[type=password], input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 50px 100px;
+	background: #212529;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+footer .container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+footer .container .information {
+	margin-right: 30px;
+}
+
+footer .container .information.about {
+	width: 40%;
+}
+
+footer .container .information.about h2 {
+	position: relative;
+	color: white;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+footer .container .information.about h2:before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 50px;
+	height: 2px;
+	background: lime;
+}
+
+footer .container .information.about p {
+	color: lightgray;
+}
+
+.social-icon {
+	margin-top: 20px;
+	display: flex;
+}
+
+.social-icon li {
+	list-style: none;
+}
+
+.social-icon li a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.social-icon li a:hover {
+	background: green;
+}
+
+.social-icon li a .fa {
+	color: white;
+	font-size: 20px;
+}
+
+.social-icon {
+	margin-top: 20px;
+	display: flex;
+}
+
+.social-icon li {
+	list-style: none;
+}
+
+.social-icon li a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.social-icon li a:hover {
+	background: green;
+}
+
+.social-icon li a .fa {
+	color: white;
+	font-size: 20px;
+}
+
+.links h2 {
+	position: relative;
+	color: white;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.contact h2 {
+	position: relative;
+	color: white;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.contact h2::before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 50px;
+	height: 2px;
+	background: lime;
+}
+
+.contact {
+	width: calc(35% - 60px);
+	margin-right: 0 !important;
+}
+
+.contact .info {
+	position: relative;
+}
+
+.contact .info li {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+	color: white;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.contact .info li span {
+	color: lightgray;
+}
+
+.contact .info li a {
+	color: lightgray;
+	text-decoration: none;
+}
